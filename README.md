@@ -1,0 +1,2 @@
+# CompetitiveFortranLibrary
+fortran用競技プログラミングライブラリの開発
