@@ -1,4 +1,4 @@
-# CompetitiveFortranLibrary
+# Competitive Fortran Library
 fortran用競技プログラミングライブラリの開発
 
 ##TODO:
