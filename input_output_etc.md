@@ -2,33 +2,33 @@
 TODO:全体的に殴り書きなのでちゃんと書く.
 
 ###条件分岐
-  if (条件) 処理  
+`  if (条件) 処理`
 
-  if (条件) then  
-    処理  
-  endif  
+`  if (条件) then`
+`    処理`
+`  endif`
 
-  if (条件) then  
-    処理  
-  else if  
-    処理  
-  else  
-    処理  
-  endif  
+`  if (条件) then`
+`    処理`
+`  else if`  
+`    処理`
+`  else` 
+`    処理`
+`  endif`
 
 ###繰り返し...do一択
-  do 変数=初期値,終了値  
-    処理  
-  enddo  
+`  do 変数=初期値,終了値`
+`    処理`
+`  enddo`
 
-  do 変数=初期値,終了値,増分  
-    処理  
-  enddo  
+`  do 変数=初期値,終了値,増分`
+`    処理`  
+`  enddo`
   増分は2とか-1とか  
 
 ###loopを抜ける
-cycle...C言語でいうcontinue  
-exit...C言語でいうbreak  
+* cycle...C言語でいうcontinue  
+* exit...C言語でいうbreak  
 
 ###入出力
 とりあえず標準入出力をまずは...  
@@ -49,7 +49,7 @@ exit...C言語でいうbreak
 
     ex) write(*, '(i0)') x
 
-    sudaプロの解説を期待.
+    **sudaプロの解説を期待.**
 
     ↓これがWAになるんですが正直理由がよく分かりません.
     http://arc052.contest.atcoder.jp/submissions/713987
