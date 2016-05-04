@@ -33,11 +33,13 @@ TODO:全体的に殴り書きなのでちゃんと書く.
 ###入出力
 とりあえず標準入出力をまずは...  
 * 入力
+
    read *, 入力の変数をcomma区切り
 
    ex) read*, x, y, z
 
 * 出力
+
     ** print "(formatをcomma区切り)", 出力の変数をcomma区切り
 
     ex) `print '(i0)', x`  
@@ -45,7 +47,7 @@ TODO:全体的に殴り書きなのでちゃんと書く.
         `print '(f0.5)', x`  
         f0.m...浮動点小数で小数点m桁までを出力(切り上げ/捨てとかどうなってるんでしょう?)  
 
-    ** write(*, '(formatをcomma区切り)') 出力の変数をcomma区切り
+    ** write(*, '(formatをcomma区切り)') 出力の変数をcomma区切り  
 
     ex) `write(*, '(i0)') x`
 
@@ -57,8 +59,8 @@ TODO:全体的に殴り書きなのでちゃんと書く.
 ###global変数(moduleを使う)
 TODO:ちゃんと書く
 
-###お約束:program, subroutine, functionいずれにおいても，
-  * use module名...global変数使うため
+###お約束:program, subroutine, functionいずれにおいても以下を守っておいた方が良さそう．
+  * use module名...global変数使う場合必要
   * implicit none...宣言無しで変数等を使おうとすると怒られるように設定
   * 使用する変数, subroutine, functionを先頭に宣言しておく(順番守らないとコンパイルエラー)
 
@@ -73,4 +75,3 @@ TODO:ちゃんと書く
 
 
 **その他自由に追記，編集されていくことを期待.**
-
