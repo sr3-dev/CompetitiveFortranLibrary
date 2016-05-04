@@ -4,26 +4,26 @@ TODO:全体的に殴り書きなのでちゃんと書く.
 ###条件分岐
 `  if (条件) 処理`
 
-`  if (条件) then`
-`    処理`
-`  endif`
+`  if (条件) then`  
+`    処理`  
+`  endif`  
 
-`  if (条件) then`
-`    処理`
-`  else if`  
-`    処理`
-`  else` 
-`    処理`
-`  endif`
+`  if (条件) then`  
+`    処理`  
+`  else if`   
+`    処理`  
+`  else`   
+`    処理`  
+`  endif`  
 
 ###繰り返し...do一択
-`  do 変数=初期値,終了値`
-`    処理`
-`  enddo`
-
-`  do 変数=初期値,終了値,増分`
+`  do 変数=初期値,終了値`  
 `    処理`  
-`  enddo`
+`  enddo`  
+
+`  do 変数=初期値,終了値,増分`  
+`    処理`  
+`  enddo`  
   増分は2とか-1とか  
 
 ###loopを抜ける
@@ -32,22 +32,22 @@ TODO:全体的に殴り書きなのでちゃんと書く.
 
 ###入出力
 とりあえず標準入出力をまずは...  
-  ####入力
+* 入力
    read *, 入力の変数をcomma区切り
 
    ex) read*, x, y, z
 
-  ####出力
-    print "(formatをcomma区切り)", 出力の変数をcomma区切り
+* 出力
+    ** print "(formatをcomma区切り)", 出力の変数をcomma区切り
 
-    ex) print '(i0)', x
-        i0...整数用のフォーマット
-        print '(f0.5)', x
-        f0.mで少数点m桁までを出力(切り上げ/捨てとかどうなってるんでしょう?)
+    ex) `print '(i0)', x`  
+        i0...整数用のフォーマット  
+        `print '(f0.5)', x`  
+        f0.m...浮動点小数で小数点m桁までを出力(切り上げ/捨てとかどうなってるんでしょう?)  
 
-    write(*, '(formatをcomma区切り)') 出力の変数をcomma区切り
+    ** write(*, '(formatをcomma区切り)') 出力の変数をcomma区切り
 
-    ex) write(*, '(i0)') x
+    ex) `write(*, '(i0)') x`
 
     **sudaプロの解説を期待.**
 
