@@ -1,6 +1,15 @@
 
 TODO:全体的に殴り書きなのでちゃんと書く.
 
+###使いそうな変数
+* integer,integer(4)...C言語のint
+* integer(8)...C言語のlong long
+* real(8)...C言語のdouble
+* complex...?
+
+####文字列
+TODO
+
 ###条件分岐
 `  if (条件) 処理`
 
