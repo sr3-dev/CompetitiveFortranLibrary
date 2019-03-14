@@ -2,10 +2,10 @@
 TODO:全体的に殴り書きなのでちゃんと書く.
 
 ###使いそうな変数
-* integer,integer(4)...C言語のint
-* integer(8)...C言語のlong long
-* real(8)...C言語のdouble
-* complex...?
+* integer,integer(4)
+* integer(8)
+* real(8)
+* complex
 
 ####文字列
 TODO
@@ -40,14 +40,14 @@ TODO
 * exit...C言語でいうbreak  
 
 ###入出力
-とりあえず標準入出力をまずは...  
-* 入力
+とりあえず標準入出力をまずは...
+* 標準入力
 
    read *, 入力の変数をcomma区切り
 
    ex) read*, x, y, z
-
-* 出力
+       '*'はあってもなくてもOK
+* 標準出力
 
     ** print "(formatをcomma区切り)", 出力の変数をcomma区切り
 
@@ -60,15 +60,10 @@ TODO
 
     ex) `write(*, '(i0)') x`
 
-    **sudaプロの解説を期待.**
-
-    ↓これがWAになるんですが正直理由がよく分かりません.
-    http://arc052.contest.atcoder.jp/submissions/713987
-
 ###global変数(moduleを使う)
 TODO:ちゃんと書く
 
-###お約束:program, subroutine, functionいずれにおいても以下を守っておいた方が良さそう．
+###program, subroutine, functionいずれにおいても以下を守っておいた方が良さそう．
   * use module名...global変数使う場合必要
   * implicit none...宣言無しで変数等を使おうとすると怒られるように設定
   * 使用する変数, subroutine, functionを先頭に宣言しておく(順番守らないとコンパイルエラー)
